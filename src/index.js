@@ -1,4 +1,4 @@
-import './style';
-import App from './components/app';
+import "./style";
+import App from "./routes/app";
 
 export default App;

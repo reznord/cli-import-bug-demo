@@ -1,11 +1,11 @@
 import { h, Component } from "preact";
 import { Router } from "preact-router";
 
-import Header from "./header/index";
+import Header from "async!../components/header";
 
 // Code-splitting is automated for routes
-import Home from "../routes/home/home";
-import Profile from "../routes/profile";
+import Home from "./home/home";
+import Profile from "./profile";
 
 export default class App extends Component {
   /** Gets fired when the route changes.
